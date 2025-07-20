@@ -8,7 +8,7 @@ yourls_html_logo();
 yourls_html_menu();
 ?>
 
-	<main role="main" class="sub_wrap">
+	<main id="main-content" role="main" class="sub_wrap">
 
 	<h2><?php yourls_e( 'Bookmarklets' ); ?></h2>
 

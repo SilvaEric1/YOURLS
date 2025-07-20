@@ -62,7 +62,7 @@ yourls_html_logo();
 yourls_html_menu();
 ?>
 
-	<main role="main">
+	<main id="main-content" role="main">
 	<h2><?php yourls_e( 'Plugins' ); ?></h2>
 
 	<?php

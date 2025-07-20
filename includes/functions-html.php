@@ -132,6 +132,7 @@ function yourls_html_head( $context = 'index', $title = '' ) {
 	<?php yourls_do_action( 'html_head', $context ); ?>
 </head>
 <body class="<?php echo $context; ?> <?php echo $bodyclass; ?>">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 <div id="wrap">
 	<?php
 }
@@ -186,7 +187,7 @@ function yourls_html_addnew( $url = '', $keyword = '' ) {
         return $pre;
     }
 	?>
-	<main role="main">
+	<main id="main-content" role="main">
 	<div id="new_url">
 		<div>
 			<form id="new_url_form" action="" method="get">

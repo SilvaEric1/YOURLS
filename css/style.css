@@ -335,3 +335,21 @@ a.bookmarklet:hover {
 tr.plugin.active a{ font-weight:bolder;}
 body.desktop tr.plugin td.plugin_desc small{ visibility:hidden;}
 tr:hover.plugin td.plugin_desc small{ visibility:visible;}
+
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background-color: #2779A4;
+	color: #fff !important;
+	padding: 8px 16px;
+	z-index: 100;
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid #fff;
+	transition: top 0.3s ease;
+  }
+  
+  .skip-link:focus {
+	top: 0; /* Slide into view when focused */
+  }
