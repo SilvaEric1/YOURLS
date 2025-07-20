@@ -830,7 +830,7 @@ function yourls_html_menu() {
 	$admin_sublinks = yourls_apply_filter( 'admin_sublinks', $admin_sublinks );
 
 	// Now output menu
-	echo '<nav role="navigation"><ul id="admin_menu">'."\n";
+	echo '<nav role="navigation" aria-label="Admin Menu"><ul id="admin_menu">'."\n";
 	if ( yourls_is_private() && !empty( $logout_link ) )
 		echo '<li id="admin_menu_logout_link">' . $logout_link .'</li>';
 
