@@ -28,7 +28,7 @@ div, p, td {
 	font-size: 12px;
 }
 a, a:link, a:active, a:visited {
-	color: #2a85b3;
+	color: #2779A4;
 	text-decoration: none;
 }
 a:hover {
@@ -36,7 +36,7 @@ a:hover {
 }
 h1 {height:50px;margin:0;float:right;max-width:500px;}
 h1 a {text-align:right;font-size:20px;float:right;}
-h1 a, h1 a:link, h1 a:active, h1 a:visited {color:#2a85b3}
+h1 a, h1 a:link, h1 a:active, h1 a:visited {color:#287EAA}
 h1 a:hover{text-decoration:none;}
 h1 a:hover span{text-decoration:underline;color:#88c0eb}
 #yourls-logo {
@@ -50,7 +50,7 @@ ul#admin_menu {
 	font-size:105%;
 }
 ul#admin_menu li {
-	color:#aaa;
+	color:#727272;
 	padding:1px 0;
 }
 ul#admin_menu li:hover {
@@ -127,7 +127,7 @@ tr.edit-row  td {
 }
 #add-url {width:400px}
 td.url small a{
-	color:#bbc;
+	color:#727272;
 }
 body.desktop td.actions input,body.desktop  td.actions a {
 	visibility:hidden;
